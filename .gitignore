@@ -1,0 +1,11 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+
+# Local override files (sometimes used for env-specific configs)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
